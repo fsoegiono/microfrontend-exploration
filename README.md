@@ -1,13 +1,13 @@
 # Microfrontend Exploration
 
-This repository explores microfrontend implementation using Webpack Module Federation. In this repository, the code is provided with dirty example of Webpack Module Federation as a leverage to create microfrontend architecture.
+This repository demonstrates a microfrontend architecture using Webpack Module Federation. It provides examples of leveraging Webpack Module Federation to enable a microfrontend structure.
 
 ## Structure
 
-- Dashboard (host page)
-- Hello World (remote page to Dashboard)
-- Kiwi (remote page to Dashboard and host to Image Caption)
-- Image caption (remote page to Kiwi as nested Module Federation)
+- Dashboard: Acts as the host page
+- Hello World: Remote page integrated into the Dashboard
+- Kiwi: remote page for the Dashboard and a host for the Image Caption module
+- Image Caption: Remote page to Kiwi, using nested Module Federation
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ Ensure you have the following installed:
 
 2. Run each microfrontend application:
 
-   Dashboard:
+   **Dashboard:**
    ```
    cd dashboard
    npm install
@@ -35,7 +35,7 @@ Ensure you have the following installed:
    npm start
    ```
 
-   Hello World:
+   **Hello World:**
    ```
    cd hello-world
    npm install
@@ -43,7 +43,7 @@ Ensure you have the following installed:
    npm start
    ```
 
-   Kiwi:
+   **Kiwi:**
    ```
    cd kiwi
    npm install
@@ -51,7 +51,7 @@ Ensure you have the following installed:
    npm start
    ```
 
-   Image Caption
+   **Image Caption:**
    ```
    cd image-caption
    npm install
@@ -63,5 +63,5 @@ Ensure you have the following installed:
 
 ## Available Scripts for Local Development
 
-- `npm run build`: Transform code into bundles
-- `npm start`: Run server application to load bundled code
+- `npm run build`: Builds the code into bundles
+- `npm start`: Starts the server to serve bundled code
