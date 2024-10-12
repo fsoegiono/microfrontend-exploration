@@ -6,7 +6,7 @@ This repository explores microfrontend implementation using Webpack Module Feder
 
 - Dashboard (host page)
 - Hello World (remote page to Dashboard)
-- Kiwi (remote page to Dashboard and host of Image Caption)
+- Kiwi (remote page to Dashboard and host to Image Caption)
 - Image caption (remote page to Kiwi as nested Module Federation)
 
 ## Prerequisites
