@@ -1,6 +1,6 @@
 # Microfrontend Exploration
 
-This repository demonstrates a microfrontend architecture using Webpack Module Federation. It provides examples of leveraging Webpack Module Federation to enable a microfrontend structure.
+This repository demonstrates a microfrontend architecture using Webpack Module Federation. It provides dirty examples of leveraging Webpack Module Federation to enable a microfrontend structure.
 
 ## Structure
 
